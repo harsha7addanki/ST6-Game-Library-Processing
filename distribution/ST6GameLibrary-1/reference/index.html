@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>refrence/ST6 Game Library</title>
+		<meta name="description" content="A Library for the Processing programming environment" />
+		<meta name="keywords" content="processing.org, library, ?" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="en-us" />
+		<meta name="ROBOTS" content="index,follow,archive" />
+		<meta http-equiv="imagetoolbar" content="false" />
+		<meta name="MSSmartTagsPreventParsing" content="true" />
+		<meta name="author" content="Harsha Addanki" />
+		<meta name="Rating" content="General" />
+		<meta name="revisit-after" content="7 Days" />
+		<meta name="doc-class" content="Living Document" />
+		<link rel="stylesheet" type="text/css" href="../stylesheet.css">
+	</head>
+	<body>
+		<div id="container">
+		
+			<div id="header">
+				<h1>ST6 Game Library Refrence</h1>
+			</div>
+			
+			<div id="menu" class="clear">
+				<ul>
+					<li><a href="../index.html#about">About</a> \ </li>
+					<li><a href="../index.html#download">Download</a> \ </li>
+					<li><a href="../index.html#download">Installation</a> \ </li>
+					<li><a href="../index.html#examples">Examples</a> \ </li>
+					<li><a href="./index.html" target="_blank">Reference</a></li>
+					<!-- <li><a href="#demos">Demos</a> \ </li> -->				
+					<!-- <li><a href="#misc">Misc</a> \ </li> -->
+					<!-- <li><a href="#images">Images</a> \ </li> -->
+				</ul>
+			</div>
+			<div id="content" class="clear">
+				<h2>float GetJoystickX()</h2>
+				<pre><code>
+/**
+*Note:
+*import HAStudios.ST6.*=
+*import HAStudios.ST6.serial
+*import HAStudios.ST6.ST6
+*/
+
+import HAStudios.ST6.*;
+
+ST6 mySt6;
+
+void setup(){
+  mySt6 = new ST6(this,new serial(this,"COM16",9600),0);
+}
+
+void draw(){
+  background(mySt6.GetJoystickX());
+}
+			
+				</code></pre>
+				<br/><br/>
+				<h2>float GetJoystickY()</h2>
+				<pre><code>
+/**
+*Note:
+*import HAStudios.ST6.*=
+*import HAStudios.ST6.serial
+*import HAStudios.ST6.ST6
+*/
+
+import HAStudios.ST6.*;
+
+ST6 mySt6;
+
+void setup(){
+  mySt6 = new ST6(this,new serial(this,"COM16",9600),0);
+}
+
+void draw(){
+  background(mySt6.GetJoystickY());
+}
+			
+				</code></pre>
+			</div>
+		</div>
+	</body>
+</html>
