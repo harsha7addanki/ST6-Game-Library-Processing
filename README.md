@@ -20,7 +20,7 @@ Unzip and copy the contributed Library's folder into the `libraries` folder in t
 
 The folder structure for Library ST6 Game Library should be as follows:
 
-```
+```file
 Processing
   libraries
     ST6 Game Library
