@@ -22,13 +22,13 @@ The folder structure for Library ST6 Game Library should be as follows:
 
 ```file
 Processing
-|-libraries
-  |-ST6 Game Library
-      examples
-      library
-        ST6 Game Library.jar
-      reference
-      src
+┝libraries
+│ ┝ST6 Game Library
+│ │  ┝examples
+│ │  ┝library
+│ │  ┝──ST6 Game Library.jar
+│ │  ┝reference
+└─└──└src
 ```
              
 Some folders like `examples` or `src` might be missing. After Library ST6 Game Library has been successfully installed, restart the Processing application.
