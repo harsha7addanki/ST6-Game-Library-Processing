@@ -22,8 +22,8 @@ The folder structure for Library ST6 Game Library should be as follows:
 
 ```file
 Processing
-  libraries
-    ST6 Game Library
+|-libraries
+  |-ST6 Game Library
       examples
       library
         ST6 Game Library.jar
